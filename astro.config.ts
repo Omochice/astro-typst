@@ -4,7 +4,8 @@ import { defineConfig } from "astro/config";
 import { typst } from "astro-typst";
 
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://Omochice.github.io/astro-typst",
+  base: "/astro-typst",
   integrations: [
     mdx(),
     sitemap(),
